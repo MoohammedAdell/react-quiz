@@ -1,12 +1,39 @@
-# React + Vite
+# 🎯 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+اختبر معلوماتك في React بطريقة مسلية وسريعة ⚡  
+موقع كويز تفاعلي مبني باستخدام React، يُقيّم إجاباتك ويحسب النقاط مع مؤقت تنازلي لكل سؤال ⏱️
 
-Currently, two official plugins are available:
+## 📺 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [شاهد التطبيق مباشرًا على Vercel](https://react-quiz-eight-mauve.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Features
+
+- ✅ عرض الأسئلة مع اختيارات متعددة
+- ✅ تقييم الإجابة وإظهار الصحيحة والخاطئة
+- ✅ مؤقت تنازلي لكل سؤال (Timer)
+- ✅ حساب النقاط بحسب الإجابات
+- ✅ صفحة نهائية لإظهار النتيجة
+- ✅ تصميم عصري ومتجاوب مع جميع الشاشات
+
+---
+
+## ⚙️ Tech Stack
+
+- 🧩 **React**
+- 🎨 **CSS Variables**
+- 📦 **JSON Server / JSONBin API**
+- 🚀 **Vercel** (للنشر)
+
+---
+
+## 🧪 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-quiz-app.git
+cd react-quiz-app
+```
