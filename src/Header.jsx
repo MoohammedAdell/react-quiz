@@ -1,7 +1,9 @@
 function Header() {
   return (
     <header className="app-header">
-      <h1>Test Your React Knowledge</h1>
+      <h1>
+        Test Your <span>React</span> Knowledge!
+      </h1>
     </header>
   );
 }
