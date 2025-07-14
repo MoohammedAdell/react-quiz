@@ -78,9 +78,16 @@ function App() {
   ] = useReducer(reducer, initialstate);
 
   useEffect(() => {
-    fetch("http://localhost:9000/questions")
-      .then((response) => response.json())
-      .then((data) => dispatch({ type: "dataReceiver", payload: data }))
+    fetch("https://api.jsonbin.io/v3/b/68758038271ee80cc5fb93a2", {
+      headers: {
+        "X-Master-Key":
+          "$2a$10$9LyWtwI0Uhz08GdP0ae2cuH0kB3SOZ2Lt8areAcjHyhREM8zTo/Ta",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) =>
+        dispatch({ type: "dataReceiver", payload: data.record.questions })
+      ) // لاحظ data.record
       .catch((err) => dispatch({ type: "dataFailed" }));
   }, []);
 
